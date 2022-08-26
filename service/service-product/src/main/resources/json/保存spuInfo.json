@@ -1,0 +1,84 @@
+{
+  "id": null,
+  "spuName": "Apple iPhone 13 Pro Max",
+  "description": "品牌： Apple\n商品名称：AppleiPhone 13 Pro Max商品编号：100019718263商品毛重：420.00g商品产地：中国大陆CPU型号：A15运行内存：其他(iPhone)机身颜色：苍岭绿色三防标准：IP68屏幕分辨率：FHD+充电功率：25W及以下机身内存：256GB机身色系：绿色系屏幕材质：OLED直屏后摄主像素：1200万像素风格：苹果风，商务，科技\n",
+  "category3Id": 61,
+  "tmId": 12,
+  "spuImageList": [
+    {
+      "imgName": "2.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/3aa964ddba1547a28f2472c788e57683-2.png"
+    },
+    {
+      "imgName": "2.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/6db84a6ce75a466d833b532a2dd5980b-2.png"
+    },
+    {
+      "imgName": "3.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/4d37c96cecf14bb4a86057bc9710c784-3.png"
+    },
+    {
+      "imgName": "5.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/229b567e843e4b81b8512c70a13b13ea-5.png"
+    },
+    {
+      "imgName": "4.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/4d9d72fa30d1478daf17c86c1dd4fc8b-4.png"
+    },
+    {
+      "imgName": "4.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/d18a1fe2775f481786f48f5389308674-4.png"
+    },
+    {
+      "imgName": "2.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/cebcdda3cf61487b9427597d1e2dfb29-2.png"
+    },
+    {
+      "imgName": "3.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/76504dc110ed4fa18404cca7fc3b28e7-3.png"
+    },
+    {
+      "imgName": "1.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/cc65cb72a7984809a93b1683b969f416-1.png"
+    },
+    {
+      "imgName": "5.png",
+      "imgUrl": "http://192.168.200.100:9000/gmall/2022-08-25/8290303a4d084bc89ba806454b677486-5.png"
+    }
+  ],
+  "spuSaleAttrList": [
+    {
+      "baseSaleAttrId": "1",
+      "saleAttrName": "选择颜色",
+      "spuSaleAttrValueList": [
+        {
+          "baseSaleAttrId": "1",
+          "saleAttrValueName": "粉色"
+        },
+        {
+          "baseSaleAttrId": "1",
+          "saleAttrValueName": "蓝色"
+        }
+      ]
+    },
+    {
+      "baseSaleAttrId": "2",
+      "saleAttrName": "选择版本",
+      "spuSaleAttrValueList": [
+        {
+          "baseSaleAttrId": "2",
+          "saleAttrValueName": "128G"
+        },
+        {
+          "baseSaleAttrId": "2",
+          "saleAttrValueName": "256G"
+        },
+        {
+          "baseSaleAttrId": "2",
+          "saleAttrValueName": "512G"
+        }
+      ]
+    }
+  ]
+
+}

@@ -8,6 +8,8 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 /**
  * @author: cxz
  * @create； 2022-08-23 19:19
@@ -52,6 +54,16 @@ public class BaseTrademarkController {
     public Result deleteBaseTrademark(@PathVariable("id") Long id){
         baseTrademarkService.removeById(id);
         return Result.ok();
+    }
+
+    /**
+     * 查询品牌属性列表
+     * @return
+     */
+    @GetMapping("/baseTrademark/getTrademarkList")
+    public Result getTrademarkList(){
+        List<BaseTrademark> list = baseTrademarkService.list();
+        return Result.ok(list);
     }
 
 }
