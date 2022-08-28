@@ -6,6 +6,7 @@ import io.minio.errors.MinioException;
 import org.junit.jupiter.api.Test;
 
 import java.io.FileInputStream;
+import java.util.concurrent.CompletableFuture;
 
 /**
  * @author: cxz
@@ -41,5 +42,14 @@ public class MinIoTest {
         } catch(MinioException e) {
             System.out.println("Error occurred: " + e);
         }
+    }
+
+    public static void main1(String[] args) {
+        CompletableFuture.supplyAsync(()->{
+            return 2;
+        }).thenApplyAsync(r->{
+            System.out.println(r);
+            return r*6;
+        });
     }
 }
