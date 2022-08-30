@@ -4,11 +4,12 @@ import com.atguigu.gmall.model.product.SkuInfo;
 import com.atguigu.gmall.model.product.SpuSaleAttr;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.List;
 
 @Data
-public class SkuDetailTo {
+public class SkuDetailTo implements Serializable {
 
     //当前sku所属的分类信息
     private CategoryViewTo categoryView;
