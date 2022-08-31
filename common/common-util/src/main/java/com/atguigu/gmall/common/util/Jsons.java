@@ -2,6 +2,7 @@ package com.atguigu.gmall.common.util;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.util.StringUtils;
 
 import java.util.Map;
 
@@ -27,6 +28,9 @@ public class Jsons {
      * @return
      */
     public static<T> T toObj(String strValue,Class<T> clazz) {
+        if (StringUtils.isEmpty(strValue)){
+            return null;
+        }
         //jackson
         T t = null;
         try {

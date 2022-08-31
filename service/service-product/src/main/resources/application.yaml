@@ -1,7 +1,6 @@
 server:
   port: 9000
 
-
 #数据源配置好
 spring:
   zipkin:
@@ -13,8 +12,12 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
-    
-    
+
+
+  redis:
+    host: 192.168.200.100
+    port: 6379
+    password: Lfy123456
 #自定义数据
 app:
   minio:
