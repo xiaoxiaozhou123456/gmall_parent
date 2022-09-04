@@ -3,7 +3,6 @@ package com.atguigu.gmall.product;
 
 import com.atguigu.gmall.model.product.BaseTrademark;
 import com.atguigu.gmall.product.mapper.BaseTrademarkMapper;
-import com.atguigu.gmall.product.service.BaseTrademarkService;
 import org.apache.shardingsphere.infra.hint.HintManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

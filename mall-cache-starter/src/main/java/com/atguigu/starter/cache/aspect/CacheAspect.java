@@ -206,7 +206,6 @@ public class CacheAspect {
      */
     private Type getMethodGenericReturnType(ProceedingJoinPoint joinPoint) {
         MethodSignature signature = (MethodSignature) joinPoint.getSignature();
-
         Method method = signature.getMethod();
         Type type = method.getGenericReturnType();
         return type;

@@ -42,7 +42,7 @@ public class FileUploadServiceImpl implements FileUploadService {
 
         //3、给桶里面上传文件
         //objectName：对象名，上传的文件名
-        String name = file.getName(); //input的name的名
+       // String name = file.getName(); //input的name的名
         //得到一个唯一文件名
         String dateStr = DateUtil.formatDate(new Date());
         String filename = UUID.randomUUID().toString().replace("-","")
